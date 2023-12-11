@@ -2,8 +2,14 @@ import React from 'react';
 
 function Home() {
     return (
-        <div>
-            <h1>Home Page</h1>
+        <div className='height-77'>
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <h2 className='m-5'>Ciao, benvenuto!</h2>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

@@ -39,7 +39,9 @@ function Blog() {
                                             {tagColors[post.tagId]}
                                         </span>
                                     </div>
-                                    <div className="button">LEGGI DI PIU'</div>
+                                    <a href={`/post/${post.slug}`}>
+                                        <div className="button">LEGGI DI PIU'</div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
